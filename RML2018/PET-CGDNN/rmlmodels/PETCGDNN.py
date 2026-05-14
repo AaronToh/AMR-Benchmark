@@ -82,7 +82,7 @@ import keras
 from keras.utils.vis_utils import plot_model
 
 if __name__ == '__main__':
-    model = CLDNN(None, classes=10)
+    model = PETCGDNN(None, classes=10)
 
     adam = keras.optimizers.Adam(lr=0.001, beta_1=0.9, beta_2=0.999, epsilon=None, decay=0.0, amsgrad=False)
     model.compile(loss='categorical_crossentropy', metrics=['accuracy'], optimizer=adam)

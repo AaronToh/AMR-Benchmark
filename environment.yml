@@ -1,0 +1,17 @@
+name: amr-benchmark
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6.10
+  - pip
+  - pip:
+    - tensorflow==1.14.0
+    - keras==2.2.4
+    - numpy>=1.16,<2.0
+    - matplotlib>=2.2,<4.0
+    - pandas>=0.24
+    - scipy>=1.1
+    - scikit-learn>=0.20
+    - h5py>=2.8,<3.0
+    - Pillow>=5.0
